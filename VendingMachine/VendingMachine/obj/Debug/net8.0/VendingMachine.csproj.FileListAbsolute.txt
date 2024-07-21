@@ -24,3 +24,7 @@ C:\Users\Jorge Vasquez\Projects\VendingMachine\VendingMachine\obj\Debug\net8.0\r
 C:\Users\Jorge Vasquez\Projects\VendingMachine\VendingMachine\obj\Debug\net8.0\VendingMachine.pdb
 C:\Users\Jorge Vasquez\Projects\VendingMachine\VendingMachine\obj\Debug\net8.0\VendingMachine.genruntimeconfig.cache
 C:\Users\Jorge Vasquez\Projects\VendingMachine\VendingMachine\obj\Debug\net8.0\ref\VendingMachine.dll
+C:\Users\Jorge Vasquez\Projects\VendingMachine\VendingMachine\bin\Debug\net8.0\nunit.framework.dll
+C:\Users\Jorge Vasquez\Projects\VendingMachine\VendingMachine\bin\Debug\net8.0\nunit.framework.legacy.dll
+C:\Users\Jorge Vasquez\Projects\VendingMachine\VendingMachine\obj\Debug\net8.0\VendingMachine.csproj.AssemblyReference.cache
+C:\Users\Jorge Vasquez\Projects\VendingMachine\VendingMachine\obj\Debug\net8.0\VendingM.DB7F3004.Up2Date
