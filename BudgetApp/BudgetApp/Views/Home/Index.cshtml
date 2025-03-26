@@ -1,0 +1,59 @@
+﻿@page
+@model IndexModel
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Budget App</title>
+</head>
+<body>
+    <h1>Budget App</h1>
+    <p>Use this form to quickly add an Expense or Income record.</p>
+
+    <form method="post">
+        <div>
+            <label>Select Type: </label>
+            <select asp-for="InputType">
+                <option value="Expense">Expense</option>
+                <option value="Income">Income</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Name:</label>
+            <input asp-for="Name" />
+        </div>
+
+        <div>
+            <label>Forecasted Amount:</label>
+            <input asp-for="ForecastedAmount" type="number" step="0.01" />
+        </div>
+
+        <div>
+            <label>Actual Amount:</label>
+            <input asp-for="ActualAmount" type="number" step="0.01" />
+        </div>
+
+        <div>
+            <label>Partition Count:</label>
+            <input asp-for="PartitionCount" type="number" />
+            <span>(e.g. 2 for “twice per month”, 4 for “weekly”)</span>
+        </div>
+
+        <div>
+            <label>Paid?:</label>
+            <input asp-for="IsPaid" type="checkbox" />
+            <span>(Only relevant for Expenses)</span>
+        </div>
+
+        <div>
+            <button type="submit">Save</button>
+        </div>
+    </form>
+
+    @if (!string.IsNullOrWhiteSpace(Model.Message))
+    {
+        <p style="color: green">@Model.Message</p>
+    }
+</body>
+</html>

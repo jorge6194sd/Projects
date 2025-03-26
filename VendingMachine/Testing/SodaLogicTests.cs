@@ -8,10 +8,6 @@ namespace Testing
     {
         private readonly ISodaMachineLogic testInterface;
     
-        public SodaLogicTests()
-        {
-            testInterface = new SodaMachineLogic();
-        }
 
         [Fact]
         public void EmptyMoneyFromMachine_ShouldThrowNotImplementedException() 
@@ -27,6 +23,14 @@ namespace Testing
         [Fact]
         public void GetCoinInventory_ShouldThrowNotImplementedException()
         {
+
+            /*
+             * This method should count how many coins there are of each denomination, inside of the machine
+             * For example if the machine already had 3 quarters, and this transaction takes another 2 
+             * quarters, then this method, after the transaction, would contain 5 quarters. 
+             * So the expected result of quantity of quarters would be 5
+             */
+
             //ARRANGE
 
             //ACT

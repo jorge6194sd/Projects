@@ -1,0 +1,15 @@
+C:\Users\Jorge Vasquez\Projects\WorkRestTimer\obj\Debug\net8.0-windows\WorkRestTimer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jorge Vasquez\Projects\WorkRestTimer\obj\Debug\net8.0-windows\WorkRestTimer.AssemblyInfoInputs.cache
+C:\Users\Jorge Vasquez\Projects\WorkRestTimer\obj\Debug\net8.0-windows\WorkRestTimer.AssemblyInfo.cs
+C:\Users\Jorge Vasquez\Projects\WorkRestTimer\obj\Debug\net8.0-windows\WorkRestTimer.csproj.CoreCompileInputs.cache
+C:\Users\Jorge Vasquez\Projects\WorkRestTimer\obj\Debug\net8.0-windows\WorkRestTimer.sourcelink.json
+C:\Users\Jorge Vasquez\Projects\WorkRestTimer\bin\Debug\net8.0-windows\WorkRestTimer.exe
+C:\Users\Jorge Vasquez\Projects\WorkRestTimer\bin\Debug\net8.0-windows\WorkRestTimer.deps.json
+C:\Users\Jorge Vasquez\Projects\WorkRestTimer\bin\Debug\net8.0-windows\WorkRestTimer.runtimeconfig.json
+C:\Users\Jorge Vasquez\Projects\WorkRestTimer\bin\Debug\net8.0-windows\WorkRestTimer.dll
+C:\Users\Jorge Vasquez\Projects\WorkRestTimer\bin\Debug\net8.0-windows\WorkRestTimer.pdb
+C:\Users\Jorge Vasquez\Projects\WorkRestTimer\obj\Debug\net8.0-windows\WorkRestTimer.dll
+C:\Users\Jorge Vasquez\Projects\WorkRestTimer\obj\Debug\net8.0-windows\refint\WorkRestTimer.dll
+C:\Users\Jorge Vasquez\Projects\WorkRestTimer\obj\Debug\net8.0-windows\WorkRestTimer.pdb
+C:\Users\Jorge Vasquez\Projects\WorkRestTimer\obj\Debug\net8.0-windows\WorkRestTimer.genruntimeconfig.cache
+C:\Users\Jorge Vasquez\Projects\WorkRestTimer\obj\Debug\net8.0-windows\ref\WorkRestTimer.dll
