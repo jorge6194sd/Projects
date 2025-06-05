@@ -36,6 +36,20 @@ def find_purchase_paths_with_rollover(items, base_budget=400):
         # this_month_budget at the end of the month. We'll handle that scenario in the loop below
         # by including an empty subset or a direct conditional.
 
+        # If we can afford all remaining items this month, end the path here to
+        # avoid exploring infinite "skip months" scenarios.  Once the available
+        # budget covers every remaining item's cost we should simply buy them
+        # rather than continue skipping months indefinitely.
+        total_remaining_cost = sum(item[1] for item in remaining_items)
+        if this_month_budget >= total_remaining_cost:
+            items_bought_names = [i[0] for i in remaining_items]
+            new_leftover = this_month_budget - total_remaining_cost
+            current_path.append((month, items_bought_names,
+                                total_remaining_cost, new_leftover))
+            all_paths.append(list(current_path))
+            current_path.pop()
+            return
+
         # Generate all subsets of 'remaining_items' with total cost <= this_month_budget
         # We'll check combination lengths from 0 to len(remaining_items).
         # '0' means "buy nothing this month."
